@@ -1,0 +1,41 @@
+﻿body,
+{
+}
+h1 {
+    background-color: yellow;
+}
+
+h2 {
+    background-color: lightblue;
+}
+
+h1, h2, h3, p {
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+}
+
+h3, p{
+    margin-left: 10px;
+    padding: 5PX;
+}
+
+p {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+li {
+    font-size: 20px;
+}
+
+form {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

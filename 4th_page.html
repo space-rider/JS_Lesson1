@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Введение в  Javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main_style.css"
+    <link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+    <h3>
+        Напишите программу расчета объема – V и площади поверхности – S цилиндра. Объем V цилиндра радиусом – r и высотой – h,
+        вычисляется по формуле: V = πr2h. Площадь S поверхности цилиндра вычисляется по формуле: S = 2π rh + 2π r2 = 2π r (r+ h).
+        Результаты расчетов выведите на экран.
+    </h3>
+
+    <p>
+    <script>
+        var r = +prompt('Введите радиус цилиндра', '0');
+        var h = +prompt('Введите высоту цилиндра', '0');
+        var v,s;
+
+        v = Math.PI * r * r * h;
+        document.write('V = ' + v +'<br />');
+
+        s = 2 * Math.PI * +r * (+r + +h);
+        document.write('S = ' + s + '<br />');
+
+
+    </script>
+    </p>
+
+    <a href="index.html">
+        <button type="button" class="btn btn-dark btn-lg">Назад</button>
+    </a>
+
+    <a href="bonus_page.html">
+        <button type="button" class="btn btn-light btn-lg">Перейти к следующему заданию</button>
+    </a>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
