@@ -1,4 +1,4 @@
-﻿body,
+﻿body
 {
 }
 h1 {
@@ -10,13 +10,13 @@ h2 {
 }
 
 h1, h2, h3, p {
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     padding: 10px;
 }
 
 h3, p{
     margin-left: 10px;
-    padding: 5PX;
+    padding: 5px;
 }
 
 p {
@@ -26,12 +26,13 @@ p {
 }
 
 .btn {
-    margin-left: 25px;
+    margin-left: 15px;
     margin-bottom: 10px;
 }
 
 li {
     font-size: 20px;
+    font-weight: 400;
 }
 
 form {
@@ -39,3 +40,4 @@ form {
     margin-left: 25px;
     margin-right: 25px;
 }
+
